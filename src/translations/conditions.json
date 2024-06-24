@@ -1,0 +1,16 @@
+{
+	"en-CA": {
+		"categories": "All Categories",
+		"search": "Search Now",
+		"select": "Select Category",
+		"title": "All Conditions",
+		"uri": "category"
+	},
+	"fr-CA": {
+		"categories": "Toutes Catégories",
+		"search": "Rechercher Maintenant",
+		"select": "Choisir une Catégorie",
+		"title": "Tous Conditions",
+		"uri": "categorie"
+	}
+}

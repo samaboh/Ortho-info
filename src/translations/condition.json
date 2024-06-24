@@ -1,0 +1,26 @@
+{
+	"en-CA": {
+		"consultation": "Request a Consultation",
+		"detail": "Condition Detail",
+		"device": "Orthotic Device And Benefits",
+		"main": "Go to Main",
+		"recommended": "Recommended Exercise",
+		"related": "Related Device/Equipment",
+		"related_explanation": "Explanation of Recommended Orthotic Device",
+		"view_exercises": "View exercises",
+		"view_details": "View details",
+		"view_products": "View all products"
+	},
+	"fr-CA": {
+		"consultation": "Demander une Consultation",
+		"detail": "Détail de l'état",
+		"device": "Appareil orthopédique et avantages",
+		"main": "Retour au Principal",
+		"recommended": "Exercice Recommandé",
+		"related": "Dispositif/équipement connexe",
+		"related_explanation": "Explication de l'orthèse recommandée",
+		"view_exercises": "Voir les exercices",
+		"view_details": "Voir les détails",
+		"view_products": "Voir tous les produits"
+	}
+}

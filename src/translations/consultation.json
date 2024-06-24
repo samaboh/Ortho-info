@@ -1,0 +1,50 @@
+{
+	"en-CA": {
+		"cancel": "CANCEL",
+		"diagnostic": "Diagnostic / Problem",
+		"errors": {
+			"invalid": "Invalid",
+			"missing": "Missing"
+		},
+		"insurance": "Insurance type",
+		"name": "Your full name",
+		"notes": "Notes",
+		"passcode": "Passcode",
+		"patient_name": "Patient name",
+		"phone": "Phone number",
+		"postal": "Postal code",
+		"specialist": "Specialist type",
+		"submit": "SUBMIT",
+		"success": "Consultation Request Sent!",
+		"title": "Request a consultation",
+		"upload": {
+			"title": "Upload referral document",
+			"drop": "Drop file or click to upload",
+			"max": "(max file size of 10MB)"
+		}
+	},
+	"fr-CA": {
+		"cancel": "ANNULER",
+		"diagnostic": "Diagnostique / Problème",
+		"errors": {
+			"invalid": "Invalid",
+			"missing": "Absent(e)"
+		},
+		"insurance": "Type d'assurance",
+		"name": "Ton nom complet",
+		"notes": "Remarques",
+		"passcode": "Code d'Accès",
+		"patient_name": "Nom du patient",
+		"phone": "Numéro de téléphone",
+		"postal": "Code postal",
+		"specialist": "Type de spécialiste",
+		"submit": "SOUMETTRE",
+		"success": "Demande de consultation envoyée!",
+		"title": "Demander une consultation",
+		"upload": {
+			"title": "Télécharger le document de recommandation",
+			"drop": "Déposez le fichier ou cliquez pour télécharger",
+			"max": "(taille de fichier maximale de 10Mo)"
+		}
+	}
+}

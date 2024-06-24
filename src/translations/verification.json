@@ -1,0 +1,12 @@
+{
+	"en-CA": {
+		"checking": "Verifying...",
+		"failed": "Can not verify, key is invalid. Please make sure you copied the URL correctly. Contact support if you continue to have issues.",
+		"success": "Successfully verified your e-mail address. You will be redirected to the homepage shortly."
+	},
+	"fr-CA": {
+		"checking": "Vérification...",
+		"failed": "Impossible de vérifier, la clé n'est pas valide. Veuillez vous assurer d'avoir copié l'URL correctement. Contactez le support si vous continuez à rencontrer des problèmes.",
+		"success": "Vérification réussie de votre adresse e-mail. Vous serez bientôt redirigé vers la page d'accueil."
+	}
+}

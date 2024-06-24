@@ -1,0 +1,18 @@
+{
+	"en-CA": {
+		"count": "Count",
+		"date": "Date",
+		"date_accepted": "Date Accepted",
+		"name": "Patient Name",
+		"referred_clinic": "Referred Clinic",
+		"search": "Search"
+	},
+	"fr-CA": {
+		"count": "Nombre",
+		"date": "Date",
+		"date_accepted": "Date d'Acceptation",
+		"name": "Nom du Patient",
+		"referred_clinic": "Clinique Référée",
+		"search": "Recherche"
+	}
+}

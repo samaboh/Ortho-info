@@ -1,0 +1,16 @@
+{
+	"en-CA": {
+		"count": "Count",
+		"date": "Date",
+		"name": "Patient Name",
+		"pathology": "Pathology",
+		"search": "Search"
+	},
+	"fr-CA": {
+		"count": "Nombre",
+		"date": "Date",
+		"name": "Nom du Patient",
+		"pathology": "Pathologie",
+		"search": "Recherche"
+	}
+}

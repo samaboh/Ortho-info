@@ -1,0 +1,65 @@
+{
+  "name": "www",
+  "version": "0.3.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@ouroboros/body": "^1.0.1",
+    "@ouroboros/brain": "^1.2.1",
+    "@ouroboros/brain-react": "1.0.1",
+    "@ouroboros/browser": "^0.1.6",
+    "@ouroboros/clone": "^1.0.1",
+    "@ouroboros/dates": "^1.0.0",
+    "@ouroboros/events": "^1.0.0",
+    "@ouroboros/mouth": "^1.0.0",
+    "@ouroboros/mouth-mui": "^1.0.1",
+    "@ouroboros/subscribe": "^1.2.0",
+    "@ouroboros/tools": "0.5.1",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "env-cmd": "^10.1.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-paginate": "^8.2.0",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "^5.0.1",
+    "react-signature-canvas": "^1.0.6",
+    "react-simple-image-viewer": "^1.2.2",
+    "react-snackbar-alert": "^2.1.0",
+    "react-tooltip": "^5.21.5",
+    "sass": "^1.68.0",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.development react-scripts start",
+    "build": "react-scripts build",
+    "local": "env-cmd -f .env.local react-scripts start",
+    "staging": "env-cmd -f .env.staging react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

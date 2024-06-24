@@ -1,0 +1,32 @@
+{
+	"en-CA": {
+		"company": "Company",
+		"email": "E-Mail",
+		"error": "One or more fields have an error. Please check and try again",
+		"first_name": "First name",
+		"header": "We Would Love To Hear From You",
+		"last_name": "Last name",
+		"message": "Message",
+		"missing": "The field is required",
+		"phone": "Phone",
+		"subject": "Subject",
+		"submit": "SEND MESSAGE",
+		"text": "Call, use email or use this contact form to get in touch with us.\nWe would be happy to assist you.",
+		"title": "Contact us"
+	},
+	"fr-CA": {
+		"company": "Entreprise",
+		"email": "Courriel",
+		"error": "Un ou plusieurs champs contiennent une erreur. S'il vous plaît, vérifiez et essayez à nouveau",
+		"first_name": "Prénom",
+		"header": "Nous aimerions avoir de vos nouvelles",
+		"last_name": "Nom de famille",
+		"message": "Message",
+		"missing": "Ce champ est requis",
+		"phone": "Téléphone",
+		"subject": "Sujet",
+		"submit": "ENVOYER LE MESSAGE",
+		"text": "Appelez, utilisez un e-mail ou utilisez ce formulaire de contact pour nous contacter.\nNous serions ravis de vous assister.",
+		"title": "Contactez-nous"
+	}
+}

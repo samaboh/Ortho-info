@@ -1,0 +1,12 @@
+{
+	"en-CA": {
+		"clear": "clear",
+		"submit": "Save Signature",
+		"title": "Please sign your name below"
+	},
+	"fr-CA": {
+		"clear": "effacer",
+		"submit": "Enregistrer la Signature",
+		"title": "Veuillez signer votre nom ci-dessous"
+	}
+}

@@ -1,0 +1,293 @@
+#header {
+    background-image: url("https://orthoinfo.s3.us-east-1.amazonaws.com/www/header_background.png");
+    background-position: center;
+    text-align: center;
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+
+        .navigation {
+            height: 60px;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo-container {
+                z-index: 1;
+            }
+
+            img.logo {
+                width: 125px;
+            }
+
+            a {
+                color: $cWhite;
+                font-weight: 500;
+                font-size: 15px;
+                display: inline-block;
+                margin: 0 10px;
+                padding-left: 5px;
+                padding-right: 5px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .search {
+        margin-bottom: 10px;
+
+        input {
+            width: 640px;
+        }
+    }
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    input {
+        font-size: 16px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 300px;
+        outline: none;
+        margin-bottom: 0;
+    }
+
+    .search-icon,
+    .search-icon2 {
+        color: $cBlue;
+        width: 20px;
+        z-index: 1;
+    }
+
+    .search-icon {
+        margin-right: -30px;
+    }
+
+    .search-button {
+        height: 36px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ebc700;
+        border-radius: 10px;
+        position: absolute;
+        right: 2px;
+
+        p {
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}
+
+.results {
+    background-color: $cWhite;
+    border: 1px solid $cBlue;
+    color: $cBlack;
+    overflow: auto;
+    position: absolute;
+    right: 0px;
+    text-align: left;
+    top: 60px;
+    z-index: 8;
+    overflow-y: scroll;
+    height: calc(100vh - 147px);
+
+    a {
+        color: $cBlack;
+        text-decoration: none;
+    }
+
+    .result {
+        cursor: pointer;
+        padding: 10px;
+        border-bottom: solid 1px #b6b1b1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 100px;
+        width: 100%;
+
+
+        p.title {
+            font-weight: bold;
+            font-size: 14px;
+            color: #1454a9;
+        }
+
+        p.content {
+            font-size: 12px;
+        }
+
+        .result-img-div {
+            min-height: 70px;
+            min-width: 90px;
+            border: solid 1px #b6b1b1;
+            margin-right: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%
+        }
+    }
+
+    .result.selected {
+        color: $cWhite;
+        background-color: $cBlue;
+    }
+}
+
+
+.result-text {
+    margin-top: 10px;
+    overflow: hidden;
+    height: 57px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    opacity: 100;
+    color: $cWhite;
+    margin-right: 40px;
+    transition: 0.5s all ease-in-out;
+}
+
+.hamburger-container {
+    z-index: 1;
+}
+
+.hamburger {
+    background-color: transparent;
+    cursor: pointer;
+    color: $cWhite;
+    display: none;
+
+    i {
+        font-size: 30px;
+        padding-top: 8px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #header {
+        .container {
+            max-width: 540px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #header {
+        .container {
+            max-width: 720px;
+        }
+    }
+
+    .search-icon2 {
+        display: none;
+    }
+
+    .search {
+        input {
+            padding-left: 30px;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #header {
+        .container {
+            max-width: 960px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #header {
+        .container {
+            max-width: 1140px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        background: $cBlue;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        justify-content: flex-start;
+        padding-top: 50px;
+        transform: translateY(-100%);
+        opacity: 0;
+
+        a {
+            border-bottom: solid 1px #00000070;
+            padding: 25px;
+            text-transform: uppercase;
+        }
+    }
+
+    .nav-menu.expanded {
+        transform: translateY(0px);
+        opacity: 100;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .search {
+        input {
+            padding-left: 10px;
+        }
+    }
+
+    .search-button {
+        p {
+            display: none;
+        }
+
+        .search-icon2 {
+            display: block;
+        }
+    }
+
+    #header {
+        .search {
+            input {
+                width: 340px
+            }
+        }
+    }
+
+
+    .result-text {
+        margin-top: 10px;
+        height: 54px;
+    }
+}

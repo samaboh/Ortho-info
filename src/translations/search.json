@@ -1,0 +1,20 @@
+{
+	"en-CA": {
+		"pathology": "Search Pathology",
+		"paths": {
+			"bodypart": "category",
+			"pathology": "condition",
+			"search": "Search"
+		},
+		"search": "Search"
+	},
+	"fr-CA": {
+		"pathology": "Recherche Pathologie",
+		"paths": {
+			"bodypart": "category",
+			"pathology": "condition",
+			"search": "Recherche"
+		},
+		"search": "Recherche"
+	}
+}

@@ -1,0 +1,146 @@
+#condition {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 30px;
+	gap: 30px;
+	position: relative;
+
+	.condition-card {
+		display: flex;
+		flex-direction: column;
+		background-color: $cWhite;
+		width: 100%;
+		max-width: 45%;
+		height: 450px;
+		padding: 25px;
+		box-shadow: 7px 8px 17px #00000006;
+		border-radius: 8px;
+		justify-content: space-between;
+
+		h3 {
+			font-size: 24px;
+			font-weight: 500;
+			color: $cBlue;
+			margin-bottom: 15px;
+		}
+
+		button {
+			width: 100%;
+			text-align: center;
+			color: $cWhite;
+			font-size: 17px;
+			font-weight: 600;
+			text-transform: uppercase;
+			padding: 12px 25px;
+			border-radius: 6px;
+			background-color: #03A16A;
+			border: 1px solid #03A16A;
+			margin-top: 15px;
+			cursor: pointer;
+			margin-left: 0;
+		}
+
+		button:hover {
+			border: 1px solid #03A16A;
+			background-color: white;
+			color: #03A16A;
+		}
+
+		.vid-div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			overflow: hidden;
+		}
+
+		img {
+			object-fit: cover;
+			width: 100%;
+			cursor: pointer;
+		}
+	}
+
+	.wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 16px;
+		margin-left: 16px;
+		overflow: auto;
+		width: calc(100% - 16px);
+		height: 100%;
+
+		.product {
+			margin: 5px 0;
+			vertical-align: top;
+
+			img {
+				margin: 0 10px 10px 0;
+				width: calc(20% - 10px);
+			}
+
+			p {
+				color: $cBlack;
+				display: inline-block;
+				vertical-align: top;
+				width: 80%;
+			}
+		}
+	}
+}
+
+.image-container {
+	position: relative;
+
+	.zoom-pic {
+		width: 40px;
+		height: 40px;
+		padding: 10px;
+		color: $cWhite;
+		background-color: $cBlue;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 8px;
+		position: absolute;
+		bottom: 2px;
+		right: 2px;
+		cursor: pointer;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	#condition {
+		.wrapper {
+			.product {
+				flex-basis: 33.333%;
+				max-width: 33.333%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	#condition {
+		flex-direction: column;
+		padding: 80px 30px 0px 30px;
+		.condition-card {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#condition {
+		.wrapper {
+			.product {
+				flex-basis: 100%;
+				max-width: 100%;
+			}
+		}
+	}
+}

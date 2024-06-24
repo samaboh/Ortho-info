@@ -1,0 +1,193 @@
+#conditions {
+	h1 {
+		color: $cWhite;
+		font-size: 18px;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+		background-image: url("https://orthoinfo.s3.us-east-1.amazonaws.com/www/header_background.png");
+		background-position: center;
+		height: 62px;
+	}
+
+	.outer-wrapper {
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: space-around;
+		align-items: baseline;
+		padding: 20px;
+		background-color: $cWhite;
+
+		.condition {
+			flex-basis: 30%;
+			max-width: 30%;
+			justify-content: center;
+			vertical-align: middle;
+			display: flex;
+			flex-direction: column;
+
+			.cond-image {
+				width: 100%;
+				border-radius: 8px;
+				background-color: $cLightBlue;
+				box-shadow: 0px 3px 14px #00000029;
+				padding: 10px;
+				margin-bottom: 10px;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			h3 {
+				font-size: 16px;
+				color: $cBlack;
+				font-weight: 500;
+			}
+
+			img {
+				width: 100%;
+				aspect-ratio: 1 / 1;
+				object-fit: contain;
+			}
+		}
+	}
+
+	.select-category {
+		display: none;
+		width: 100%;
+		gap: 10px;
+
+		select {
+			height: 49px;
+			border: 1px solid #ededed;
+			padding-left: 14px;
+			border-radius: 8px;
+
+			option {
+				padding: 5px 0px;
+			}
+		}
+
+		input {
+			width: 100%;
+			font-size: 15px;
+			padding-top: 14px;
+			padding-bottom: 14px;
+		}
+	}
+}
+
+.side-bar {
+	padding: 10px;
+	background-color: $cWhite;
+
+	h3 {
+		font-size: 24px;
+		font-weight: 500;
+		color: $cBlue;
+		margin-bottom: 30px;
+		padding: 0px 10px;
+
+	}
+
+	.side-bar-search {
+		padding-left: 10px;
+		margin-bottom: 30px;
+	}
+}
+
+#categories {
+	a {
+		color: $cBlack;
+		display: block;
+		font-weight: 500;
+		padding: 10px;
+		text-decoration: none;
+		text-transform: uppercase;
+		border-bottom: 1px solid gray;
+	}
+
+	a.selected {
+		background-color: $cBlue;
+		color: $cWhite;
+		border-radius: 5px;
+	}
+}
+
+
+.pagination {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	list-style: none;
+	cursor: pointer;
+	margin: 15px 0px;
+}
+
+.pagination a {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid $cBlue;
+	color: $cBlue;
+}
+
+.pagination__link {
+	font-weight: bold;
+}
+
+.pagination__link--active a {
+	color: #fff;
+	background: $cBlue;
+}
+
+.pagination__link--disabled a {
+	color: #c6c5ca;
+	border: 1px solid #c6c5ca;
+}
+
+@media only screen and (max-width: 992px) {
+	#conditions {
+		.outer-wrapper {
+			flex-direction: column;
+		}
+
+		.wrapper {
+			.condition {
+				flex-basis: 45%;
+				max-width: 45%;
+			}
+		}
+
+		.select-category {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.side-bar {
+			display: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	#conditions {
+		h1 {
+			height: 42px;
+		}
+		.wrapper {
+			.condition {
+				flex-basis: 100%;
+				max-width: 100%;
+			}
+		}
+	}
+}

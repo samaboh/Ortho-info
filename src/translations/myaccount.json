@@ -1,0 +1,108 @@
+{
+	"en-CA": {
+		"details_errors": {
+			"invalid": "Invalid",
+			"failed regex (custom)": "Invalid",
+			"missing": "Missing"
+		},
+		"details_ext": "Extension",
+		"details_first": "First name",
+		"details_header": "Change details",
+		"details_last": "Last name",
+		"details_phone": "Phone number",
+		"details_submit": "Update details",
+		"details_success": "Your details have been successfully updated",
+		"details_suffix": "PN (PhD, RN, Esq, etc)",
+		"details_title": "Title (Mr, Mrs, Miss, etc)",
+
+		"email_current": "Current e-mail",
+		"email_errors": {
+			"in_use": "Already in use",
+			"invalid": "Invalid e-mail address",
+			"password": "Invalid password"
+		},
+		"email_header": "Change e-mail address",
+		"email_new": "New e-mail",
+		"email_passwd": "Current password",
+		"email_submit": "Update e-mail",
+		"email_success": "Your e-mail address has been successfully updated",
+
+		"locale_header": "Change language",
+
+		"passcode_errors": {
+			"failed regex (custom)": "Access code must be 4 digits",
+			"missing": "Missing",
+			"password": "Invalid password"
+		},
+		"passcode_header": "Change passcode",
+		"passcode_new": "New passcode",
+		"passcode_passwd": "Current password",
+		"passcode_submit": "Update passcode",
+		"passcode_success": "Your access code has been successfully updated",
+
+		"passwd_confirm": "Confirm new password",
+		"passwd_current": "Current password",
+		"passwd_errors": {
+			"invalid": "Invalid",
+			"no_match": "Passwords do not match",
+			"strength": "Not strong enough"
+		},
+		"passwd_header": "Change password",
+		"passwd_new": "New password",
+		"passwd_submit": "Update password",
+		"passwd_success": "Password successfully updated"
+	},
+	"fr-CA": {
+		"details_errors": {
+			"invalid": "Invalid",
+			"failed regex (custom)": "Invalid",
+			"missing": "Missing"
+		},
+		"details_ext": "Extension",
+		"details_first": "Prénom",
+		"details_header": "Modifier les détails",
+		"details_last": "Nom de famille",
+		"details_phone": "Numéro de téléphone",
+		"details_submit": "Détails de la mise à jour",
+		"details_success": "Vos coordonnées ont été mises à jour avec succès",
+		"details_suffix": "Suffixe (Doctorat, IA, MR, etc.)",
+		"details_title": "Titre (M., Mme, Mademoiselle, etc.)",
+
+		"email_current": "E-Mail actuel",
+		"email_errors": {
+			"in_use": "Déjà utilisé",
+			"invalid": "Adresse e-mail invalide",
+			"password": "Mot de passe incorrect"
+		},
+		"email_header": "Changer l'adresse e-mail",
+		"email_new": "Nouveau courriel",
+		"email_passwd": "Mot de passe actuel",
+		"email_submit": "Mettre à jour votre e-mail",
+		"email_success": "Votre address e-mail a été mis à jour avec succès",
+
+		"locale_header": "Changer de langue",
+
+		"passcode_errors": {
+			"failed regex (custom)": "Le code d'accès doit être composé de 4 chiffres",
+			"missing": "Missing",
+			"password": "Mot de passe incorrect"
+		},
+		"passcode_header": "Changer code d'accès",
+		"passcode_new": "Nouveau code d'accès",
+		"passcode_passwd": "Mot de passe actuel",
+		"passcode_submit": "Mettre à jour votre code d'accès",
+		"passcode_success": "Votre code d'accès a été mis à jour avec succès",
+
+		"passwd_confirm": "Confirmer le nouveau mot de passe",
+		"passwd_current": "Mot de passe actuel",
+		"passwd_errors": {
+			"invalid": "Invalide",
+			"no_match": "Les mots de passe ne correspondent pas",
+			"strength": "Pas assez fort"
+		},
+		"passwd_header": "Changer le mot de passe",
+		"passwd_new": "Nouveau mot de passe",
+		"passwd_submit": "Mettre à jour le mot de passe",
+		"passwd_success": "Mot de passe mis à jour avec succès"
+	}
+}

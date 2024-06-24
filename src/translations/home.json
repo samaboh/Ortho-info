@@ -1,0 +1,26 @@
+{
+	"en-CA": {
+		"arm": "Arm",
+		"back": "Back",
+		"foot": "Foot",
+		"hand": "Hand",
+		"head": "Head",
+		"hips": "Hips",
+		"knee": "Knee",
+		"leg": "Leg",
+		"neck": "Neck",
+		"shoulder": "Shoulder"
+	},
+	"fr-CA": {
+		"arm": "Bras",
+		"back": "Dos",
+		"foot": "Pied",
+		"hand": "Main",
+		"head": "Tête",
+		"hips": "Hanches",
+		"knee": "Genou",
+		"leg": "Jambe",
+		"neck": "Cou",
+		"shoulder": "Épaule"
+	}
+}

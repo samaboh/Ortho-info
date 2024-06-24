@@ -1,0 +1,22 @@
+{
+	"en-CA": {
+		"confirm": "Confirm Passcode",
+		"errors": {
+			"failed regex (custom)": "Passcode must be 4 digits",
+			"no_match": "Passcodes do not match"
+		},
+		"passcode": "Passcode",
+		"submit": "Set Passcode",
+		"title": "Please set your Passcode"
+	},
+	"fr-CA": {
+		"confirm": "Confirmer le code d'accès",
+		"errors": {
+			"failed regex (custom)": "Le code d'accès doit être composé de 4 chiffres",
+			"no_match": "Les codes d'accès ne correspondent pas"
+		},
+		"passcode": "Code d'accès",
+		"submit": "Définir le code d'accès",
+		"title": "Veuillez définir votre code d'accès"
+	}
+}

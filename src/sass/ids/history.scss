@@ -1,0 +1,124 @@
+#history {
+	height: 600px;
+	max-height: 85vh;
+	max-width: 85vw;
+	padding: 10px;
+	width: 800px;
+
+	.patientName {
+		width: 200px;
+	}
+
+	.button {
+		height: 31px;
+		padding: 5px 15px;
+		position: relative;
+		top: -1px;
+	}
+
+	input {
+		box-shadow: #00000012 1px 0px 12px 5px;
+		outline: none;
+		padding: 6px 12px;
+		font-size: 16px;
+		line-height: 1.5;
+		color: #495057;
+		background-color: $cWhite;
+		background-clip: padding-box;
+		border: 1px solid #ced4da;
+		border-radius: 0.25rem;
+		transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	}
+
+	table.records {
+		border-collapse: separate;
+		border-spacing: 2px;
+		margin-top: 15px;
+		width: 100%;
+
+		thead {
+			color: $cWhite;
+
+			th {
+				background-color: $cBlue;
+				border-radius: 10px;
+				padding: 5px 15px;
+			}
+
+		}
+
+		tbody {
+			tr {
+				td {
+					padding: 5px 10px;
+				}
+			}
+
+			tr:nth-child(even) {
+				background-color: #e4e4e4;
+			}
+
+			tr:nth-child(odd) {
+				background-color: #f3f3f3;
+			}
+		}
+	}
+}
+
+.history-tabs {
+	display: flex;
+	flex-direction: row;
+
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+	.history-tab {
+		flex-basis: auto;
+		flex-grow: 1;
+		flex-shrink: 1;
+
+		border: 1px solid black;
+		border-radius: 8px;
+		margin: 0 5px;
+		padding: 10px;
+		text-align: center;
+		cursor: pointer;
+	}
+
+	.history-tab.selected {
+		background-color: $cBlue;
+		color: $cWhite;
+		font-weight: bold;
+	}
+
+	.history-tab:hover {
+		background-color: rgba(180, 180, 180, 0.719);
+	}
+}
+
+.count {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	font-weight: 500;
+}
+
+.history-input {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+	#history {
+		table.records {
+			thead {
+				th {
+					padding: 5px
+				}
+			}
+
+		}
+	}
+}
